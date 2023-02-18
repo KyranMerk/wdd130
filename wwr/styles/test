@@ -33,7 +33,7 @@ body {
     padding: 0;
 }
 header {
-    background-color: rgba(35, 31, 29, 0.7);
+    background-color: rgba(20,30,13, .7);
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -43,7 +43,7 @@ nav a:hover {
 }
 .book, .join{
     background-color:#d78e6a;
-    color:#6e2109;
+    color:black;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -58,16 +58,16 @@ nav a:hover {
     background-color: #6e2109;
 }
 .msg{
-    background-color: #d78e6a;
+    background-color: #6e2109;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px hsl(0, 1%, 15%);;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 footer{
     background-color: #6e2109;
-    color:#d78e6a;
+    color:black;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -75,7 +75,7 @@ footer{
     align-items: center;
 }
 .home-title{
-    color: #6e2109;
+    color: black;
     font-family:'Roboto Mono','RocknRoll One';
     font-size: 2em;
     margin-top: 200px;
@@ -85,11 +85,11 @@ h4{
     font-family:'RocknRoll One','Roboto Mono';
 }
 .msg h2{
-    color:#6e2109;
+    color:black;
     font-family:"Roboto Mono",'RocknRoll One';
 }
 .msg p{
-    color:#6e2109;
+    color:black;
     font-family:'RocknRoll One','Roboto Mono';
     font-size: .8em;
     padding-bottom: 15px;
@@ -132,9 +132,9 @@ footer .social img{
     margin: 200px 0;
 } 
 .card-img {
-    border: 10px solid #6e2109;
+    border: 10px solid black;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px hsl(0, 1%, 15%);
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .card-img:hover {
     opacity: .6;
